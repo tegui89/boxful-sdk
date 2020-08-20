@@ -1,0 +1,25 @@
+{
+    "name": "vidroop/boxful",
+    "description": "Boxful PHP SDK by Vidroop",
+    "type": "library",
+    "authors": [
+        {
+            "name": "matias",
+            "email": "matiasgallastegui89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boxful\\": "lib/"
+        }
+    }
+}
